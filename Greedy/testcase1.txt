@@ -1,0 +1,16 @@
+#All Friends Dislike Each Other:
+7
+Ram
+Raju
+Balu
+Krishna
+Radha
+Sita
+Mohan
+Ram: Raju, Balu, Krishna, Radha, Sita, Mohan
+Raju: Ram, Balu, Krishna, Radha, Sita, Mohan
+Balu: Ram, Raju, Krishna, Radha, Sita, Mohan
+Krishna: Ram, Raju, Balu, Radha, Sita, Mohan
+Radha: Ram, Raju, Balu, Krishna, Sita, Mohan
+Sita: Ram, Raju, Balu, Krishna, Radha, Mohan
+Mohan: Ram, Raju, Balu, Krishna, Radha, Sita

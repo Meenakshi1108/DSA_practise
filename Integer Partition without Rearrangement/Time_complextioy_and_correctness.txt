@@ -1,0 +1,26 @@
+Dynamic Programming Table Size: k x n, where k is the number of ranges and n is the number of elements in the array.
+
+Running Time per Cell: O(n)
+
+Total Time Complexity: O(kn^2)
+
+The dynamic programming approach involves filling in a table of size k x n, where each cell takes O(n) time to compute. The total time complexity is then the product of the table size and the running time per cell, which results in O(kn^2). 
+
+
+Correctness:
+
+*Base Case 1:*
+- If there's only one number, the minimum cost of dividing it into any number of ranges is simply the number itself.
+
+*Base Case 2:*
+- If you need to split all the numbers into just one range, the minimum cost is the sum of all the numbers.
+
+*Recurrent Step:*
+
+- To find the minimum cost of dividing the first (n) numbers into (k) ranges, consider all possible places to split the numbers (at each (i)).
+- For each split, consider the maximum cost of either:
+   - The cost of splitting the numbers up to (i) into (k-1) ranges (using our solution for smaller subproblems).
+   - The sum of the numbers from (i+1) to (n).
+- Repeat this process for each possible split point and choose the one with the minimum cost.
+
+By starting with simple cases and using a recurrence relation, we build up a solution for larger cases. This ensures that our approach is correct for any number of elements (n) and any number of ranges(k).

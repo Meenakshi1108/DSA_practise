@@ -1,0 +1,11 @@
+5
+amirtha
+harini
+Shruthi
+Meena
+gayathri
+amirtha: harini, Shruthi, Meena
+harini: amirtha, Shruthi
+Shruthi: amirtha, harini, Meena, gayathri
+Meena: amirtha, Shruthi, gayathri
+gayathri: Shruthi, Meena

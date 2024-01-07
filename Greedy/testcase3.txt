@@ -1,0 +1,15 @@
+7
+Ram
+Raju
+Balu
+Krishna
+Radha
+Sita
+Mohan
+Ram: Raju, Balu, Krishna
+Raju: Ram, Radha, Sita, Mohan
+Balu: Ram, Radha, Sita, Mohan
+Krishna: Ram, Radha, Sita, Mohan
+Radha: Raju, Balu, Krishna, Sita, Mohan
+Sita: Raju, Balu, Krishna, Radha, Mohan
+Mohan: Raju, Balu, Krishna, Sita, Radha
